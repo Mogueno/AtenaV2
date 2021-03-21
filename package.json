@@ -1,0 +1,19 @@
+{
+  "name": "atenav2",
+  "version": "1.0.0",
+  "description": "Atena app build with React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mogueno/AtenaV2.git"
+  },
+  "author": "Mogueno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mogueno/AtenaV2/issues"
+  },
+  "homepage": "https://github.com/Mogueno/AtenaV2#readme"
+}
