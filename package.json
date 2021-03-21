@@ -4,7 +4,8 @@
   "description": "Atena app build with React",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack serve",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,22 @@
   "bugs": {
     "url": "https://github.com/Mogueno/AtenaV2/issues"
   },
-  "homepage": "https://github.com/Mogueno/AtenaV2#readme"
+  "homepage": "https://github.com/Mogueno/AtenaV2#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^5.27.1",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-hot-loader": "^4.13.0"
+  }
 }
