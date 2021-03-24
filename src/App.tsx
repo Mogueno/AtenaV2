@@ -1,16 +1,8 @@
-import React, { Component } from "react"
-import "./App.css"
-import { hot } from "react-hot-loader"
+import React, { FC } from 'react';
+// import { hot } from 'react-hot-loader';
 
-class App extends Component {
-    render(){
-        return(
-            <div className="hello">
-                <h1>Hello World</h1>
-            </div>
-        )
-    }
-}
+import './App.css';
 
-export default hot(module)(App);
+const App: FC = () => <h1>Hell World</h1>;
 
+export default App;
